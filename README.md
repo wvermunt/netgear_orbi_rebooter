@@ -1,6 +1,6 @@
 # Automatic Netgear Orbi accesspoint rebooter
 
-Also have a faulty Netgear Orbi acesspoint that looses connectivity every 12 hours and Netgear support ignores its paying customers?
+Also have a faulty Netgear Orbi RBR350 accesspoint that looses connectivity every 12 hours and Netgear support ignores its paying customers?
 This might be the solution for you.
 
 This script check if the router is still reachable and when it inevitably becomes unresponsive after exactly 12 hours it will run a power cycle using a remote power switch.
@@ -14,4 +14,3 @@ This script check if the router is still reachable and when it inevitably become
 
 - Change the variables in the top of the file to match your environment
 - Add this to your crontab: @reboot sudo python /<PATH_TO_FILE>/devicewachter.py &
-- 
